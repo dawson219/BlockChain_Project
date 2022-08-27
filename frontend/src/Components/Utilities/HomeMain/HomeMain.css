@@ -1,0 +1,93 @@
+.mainContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -45%);
+    width: 75%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6rem;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ImageContainer{
+    width: 37.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerImageDiv{
+    width: 30rem;
+}
+
+.MainImage{
+    object-fit: cover;
+    object-position: center;
+}
+
+.ButtonData{
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerDiv{
+    border-radius: 5rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.mainHeading{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-family: "Ubuntu";
+    font-weight: 700;
+    padding: 2rem 0;
+}
+
+.mainText{
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Ubuntu";
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.mainButtonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.mainButton{
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgba(162, 0, 255, 0.801);
+    border-radius: 30px;
+    width: 10rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.mainButton:hover{
+    opacity: 0.9;
+}

@@ -6,7 +6,7 @@ import HomeMain from '../../Utilities/HomeMain/HomeMain'
 const Home = ()=> {
   return (
     <div className="HomeContainer">
-      <Navbar/>
+      <Navbar login={true} />
       <HomeMain/>
     </div>
   )

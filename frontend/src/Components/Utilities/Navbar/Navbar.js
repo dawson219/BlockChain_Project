@@ -2,7 +2,7 @@ import React from 'react'
 import "./Navbar.css"
 import { Link } from 'react-router-dom'
 
-const Navbar = ()=> {
+const Navbar = ({login})=> {
   return (
     <div className="NavbarContainer">
         <div className="logoSection" style={{textDecoration: "none"}}>
@@ -28,11 +28,13 @@ const Navbar = ()=> {
                     About
                 </div>
             </Link>
-            <Link to={"/login"} style={{textDecoration: "none"}}>
-                <div className="loginBtn">
-                    Sign In
-                </div>
-            </Link>
+            {
+                login && <Link to={"/login"} style={{textDecoration: "none"}}>
+                    <div className="loginBtn">
+                        Sign In
+                    </div>
+                </Link>
+            }
         </div>
     </div>
   )

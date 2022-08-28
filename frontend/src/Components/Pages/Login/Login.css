@@ -1,0 +1,6 @@
+.LoginContainer{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../../../public/Assets/Block2.jpg");
+    background-size: cover;
+}

@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Home from './Components/Pages/Home/Home';
 import Login from './Components/Pages/Login/Login';
-import MainPage from './Components/Pages/MainSite/MainPage';
+import MainSite from './Components/Pages/MainSite/MainSite';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path='/' exact element={<Home/>} />
         <Route path='/login' exact element={<Login/>} />
-        <Route path='/home' exact element={<MainPage/>} />
+        <Route path='/home' exact element={<MainSite/>} />
       </Routes>
     </BrowserRouter>
   );

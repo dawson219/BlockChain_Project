@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.MainPageContainer {
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    /* box-sizing: content-box; */
+    top: 5.55rem;
+    left: 0;
+    right: 0;
+    bottom : 0;
+    margin: 1rem;
+    overflow-x: hidden;
+    
+    /* display: block; */
+    background-color: white;
+}
+
+
+.content {
+    overflow-y: scroll;
+}
